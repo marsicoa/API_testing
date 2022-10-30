@@ -1,13 +1,15 @@
 # API_testing
 
-## Testeamos nuestra API
 
-    Para correr el server en el puerto 8080 -> ### `nodemon ./src/server.js`
-    Para correr el server en modo testing -> ### `npm run server` (corre el server en modo testing en el puerto 8008)
+### Para correr el server en el puerto 8080:
+#### `nodemon ./src/server.js`
+    
+### Para correr el server en modo testing (puerto 8008):
+#### `npm run server`
 
-Testing de controllers mediante **Jest**
 
-Generacion de requests mediante **axios** 
+
+### Testing de controllers usando **jest** y generacion de requests usando **axios** 
 
 ```console
 test
@@ -16,13 +18,13 @@ test
     └── product.test.js
 ```
 
-Comandos para testing: _(el servidor debe estar corriendo usando **npm run server**)_
+## Comandos para testing: 
+    /!\ el servidor debe estar corriendo usando `npm run server`
 
-### `npm run test`
+Resultados por consola:
+#### `npm run test`
 
-Resultados por consola
+Guarda los resultados en **_testresults_** generando un archivo txt:
+#### `npm run testReport`
 
 
-### `npm run testReport`
-
-Guarda los resultados en **_testresults_** generando un archivo txt
