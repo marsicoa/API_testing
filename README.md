@@ -2,10 +2,11 @@
 
 ## Testeamos nuestra API
 
-    Para correr el server en el puerto 8080 -> nodemon ./src/server.js
-    Para correr el server en modo testing -> npm run server (corre el server en modo testing en el puerto 8008)
+    Para correr el server en el puerto 8080 -> ### `nodemon ./src/server.js`
+    Para correr el server en modo testing -> ### `npm run server` (corre el server en modo testing en el puerto 8008)
 
 Testing de controllers mediante **Jest**
+
 Generacion de requests mediante **axios** 
 
 ```console
